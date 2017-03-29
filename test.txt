@@ -1,0 +1,120 @@
+UID         PID   PPID  C STIME TTY          TIME CMD
+root          1      0  0  3월20 ?      00:00:02 /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+root          2      0  0  3월20 ?      00:00:00 [kthreadd]
+root          3      2  0  3월20 ?      00:00:01 [ksoftirqd/0]
+root          5      2  0  3월20 ?      00:00:00 [kworker/0:0H]
+root          7      2  0  3월20 ?      00:00:00 [migration/0]
+root          8      2  0  3월20 ?      00:00:00 [rcu_bh]
+root          9      2  0  3월20 ?      00:00:03 [rcu_sched]
+root         10      2  0  3월20 ?      00:00:01 [watchdog/0]
+root         11      2  0  3월20 ?      00:00:02 [watchdog/1]
+root         12      2  0  3월20 ?      00:00:00 [migration/1]
+root         13      2  0  3월20 ?      00:00:06 [ksoftirqd/1]
+root         17      2  0  3월20 ?      00:00:00 [kdevtmpfs]
+root         18      2  0  3월20 ?      00:00:00 [netns]
+root         19      2  0  3월20 ?      00:00:00 [khungtaskd]
+root         20      2  0  3월20 ?      00:00:00 [writeback]
+root         21      2  0  3월20 ?      00:00:00 [kintegrityd]
+root         22      2  0  3월20 ?      00:00:00 [bioset]
+root         23      2  0  3월20 ?      00:00:00 [kblockd]
+root         24      2  0  3월20 ?      00:00:00 [md]
+root         30      2  0  3월20 ?      00:00:00 [kswapd0]
+root         31      2  0  3월20 ?      00:00:00 [ksmd]
+root         32      2  0  3월20 ?      00:00:00 [khugepaged]
+root         33      2  0  3월20 ?      00:00:00 [fsnotify_mark]
+root         34      2  0  3월20 ?      00:00:00 [crypto]
+root         42      2  0  3월20 ?      00:00:00 [kthrotld]
+root         44      2  0  3월20 ?      00:00:00 [kmpath_rdacd]
+root         46      2  0  3월20 ?      00:00:00 [kpsmoused]
+root         48      2  0  3월20 ?      00:00:00 [ipv6_addrconf]
+root         67      2  0  3월20 ?      00:00:00 [deferwq]
+root         99      2  0  3월20 ?      00:00:00 [kauditd]
+root        282      2  0  3월20 ?      00:00:00 [ata_sff]
+root        284      2  0  3월20 ?      00:00:00 [scsi_eh_0]
+root        285      2  0  3월20 ?      00:00:00 [scsi_tmf_0]
+root        286      2  0  3월20 ?      00:00:00 [scsi_eh_1]
+root        287      2  0  3월20 ?      00:00:00 [scsi_tmf_1]
+root        290      2  0  3월20 ?      00:00:00 [mpt_poll_0]
+root        291      2  0  3월20 ?      00:00:00 [mpt/0]
+root        299      2  0  3월20 ?      00:00:00 [scsi_eh_2]
+root        300      2  0  3월20 ?      00:00:00 [scsi_tmf_2]
+root        302      2  0  3월20 ?      00:00:00 [ttm_swap]
+root        325      2  0  3월20 ?      00:00:05 [kworker/u256:5]
+root        402      2  0  3월20 ?      00:00:00 [kdmflush]
+root        403      2  0  3월20 ?      00:00:00 [bioset]
+root        413      2  0  3월20 ?      00:00:00 [kdmflush]
+root        414      2  0  3월20 ?      00:00:00 [bioset]
+root        432      2  0  3월20 ?      00:00:00 [jbd2/dm-0-8]
+root        433      2  0  3월20 ?      00:00:00 [ext4-rsv-conver]
+root        517      1  0  3월20 ?      00:00:00 /usr/lib/systemd/systemd-journald
+root        522      1  0  3월20 ?      00:00:00 /usr/sbin/lvmetad -f
+root        535      1  0  3월20 ?      00:00:00 /usr/lib/systemd/systemd-udevd
+root        556      2  0  3월20 ?      00:00:00 [nfit]
+root        587      2  0  3월20 ?      00:00:00 [kworker/0:1H]
+root        629      2  0  3월20 ?      00:00:00 [xfsalloc]
+root        630      2  0  3월20 ?      00:00:00 [xfs_mru_cache]
+root        631      2  0  3월20 ?      00:00:00 [xfs-buf/sda1]
+root        632      2  0  3월20 ?      00:00:00 [xfs-data/sda1]
+root        633      2  0  3월20 ?      00:00:00 [xfs-conv/sda1]
+root        634      2  0  3월20 ?      00:00:00 [xfs-cil/sda1]
+root        635      2  0  3월20 ?      00:00:00 [xfs-reclaim/sda]
+root        638      2  0  3월20 ?      00:00:00 [xfs-log/sda1]
+root        639      2  0  3월20 ?      00:00:00 [xfs-eofblocks/s]
+root        640      2  0  3월20 ?      00:00:00 [xfsaild/sda1]
+root        644      2  0  3월20 ?      00:00:00 [kdmflush]
+root        645      2  0  3월20 ?      00:00:00 [bioset]
+root        658      2  0  3월20 ?      00:00:00 [jbd2/dm-2-8]
+root        659      2  0  3월20 ?      00:00:00 [ext4-rsv-conver]
+root        669      1  0  3월20 ?      00:00:00 /sbin/auditd -n
+polkitd     691      1  0  3월20 ?      00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+root        693      1  0  3월20 ?      00:00:00 /usr/lib/systemd/systemd-logind
+dbus        695      1  0  3월20 ?      00:00:00 /bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root        697      1  0  3월20 ?      00:00:22 /usr/sbin/irqbalance --foreground
+root        700      1  0  3월20 ?      00:00:00 /usr/sbin/crond -n
+root        708      1  0  3월20 tty1   00:00:00 /sbin/agetty --noclear tty1 linux
+root        712      1  0  3월20 ?      00:00:06 /usr/bin/python -Es /usr/sbin/firewalld --nofork --nopid
+root        713      1  0  3월20 ?      00:00:00 /usr/sbin/NetworkManager --no-daemon
+root        814    713  0  3월20 ?      00:00:00 /sbin/dhclient -d -q -sf /usr/libexec/nm-dhcp-helper -pf /var/run/dhclient-eno16777736.pid -lf /var/lib/NetworkManager/dhclient-25b3aa62-002d-4e12-a828-ab80d6a1cef8-eno16777736.lease -cf /var/lib/NetworkManager/dhclient-eno16777736.conf eno16777736
+root       1009      1  0  3월20 ?      00:00:32 /usr/bin/python -Es /usr/sbin/tuned -l -P
+root       1010      1  0  3월20 ?      00:00:00 /usr/sbin/rsyslogd -n
+root       1015      1  0  3월20 ?      00:00:00 /usr/sbin/sshd
+root       1045      1  0  3월20 ?      00:00:00 /bin/sh /usr/bin/mysqld_safe --datadir=/var/lib/mysql --pid-file=/var/lib/mysql/localhost.localdomain.pid
+mysql      1485   1045  0  3월20 ?      00:03:21 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --user=mysql --log-error=/var/log/mariadb/mariadb.log --pid-file=/var/lib/mysql/localhost.localdomain.pid --socket=/var/lib/mysql/mysql.sock
+root       1611      1  0  3월20 ?      00:00:01 /usr/libexec/postfix/master -w
+postfix    1665   1611  0  3월20 ?      00:00:00 qmgr -l -t unix -u
+root       2466      2  0  3월20 ?      00:00:00 [kworker/1:2H]
+root       3171   1015  0  3월21 ?      00:00:00 sshd: livefacter [priv]
+livefac+   3173   3171  0  3월21 ?      00:00:03 sshd: livefacter@pts/0
+livefac+   3174   3173  0  3월21 pts/0  00:00:00 -bash
+root       3194   3174  0  3월21 pts/0  00:00:00 su - root
+root       3195   3194  0  3월21 pts/0  00:00:00 -bash
+root       3251      2  0  3월21 ?      00:00:00 [kworker/1:0H]
+root       7089   1015  0  3월21 ?      00:00:00 sshd: livefacter [priv]
+livefac+   7091   7089  0  3월21 ?      00:00:00 sshd: livefacter@pts/1
+livefac+   7092   7091  0  3월21 pts/1  00:00:00 -bash
+ntp        7417      1  0  3월21 ?      00:00:01 /usr/sbin/ntpd -u ntp:ntp -g
+root      10867      1  0  3월21 ?      00:00:00 /usr/bin/python2 -s /usr/bin/fail2ban-server -s /var/run/fail2ban/fail2ban.sock -p /var/run/fail2ban/fail2ban.pid -x -b
+root      11380      2  0 13:45 ?        00:00:35 [kworker/1:2]
+root      11421      2  0 15:01 ?        00:00:08 [kworker/0:0]
+postfix   11623   1611  0 17:50 ?        00:00:00 pickup -l -t unix -u
+root      11638      2  0 18:01 ?        00:00:03 [kworker/0:2]
+root      11641   1015  0 18:08 ?        00:00:00 sshd: mobisec20 [priv]
+mobisec+  11643  11641  0 18:08 ?        00:00:00 sshd: mobisec20@pts/2
+mobisec+  11644  11643  0 18:08 pts/2    00:00:00 -bash
+root      11671   1015  0 18:27 ?        00:00:00 sshd: mobisec2 [priv]
+mobisec2  11695  11671  0 18:28 ?        00:00:00 sshd: mobisec2@pts/4
+mobisec2  11696  11695  0 18:28 pts/4    00:00:00 -bash
+root      11715   1015  0 18:28 ?        00:00:00 sshd: mobisec1 [priv]
+mobisec1  11717  11715  0 18:28 ?        00:00:00 sshd: mobisec1@pts/5
+mobisec1  11718  11717  0 18:28 pts/5    00:00:00 -bash
+mobisec2  11828  11696  0 18:43 pts/4    00:00:00 vi setting.py
+root      11850   1015  0 18:52 ?        00:00:00 sshd: livefacter [priv]
+livefac+  11852  11850  0 18:52 ?        00:00:00 sshd: livefacter@pts/3
+livefac+  11853  11852  0 18:52 pts/3    00:00:00 -bash
+root      11872      2  0 18:52 ?        00:00:00 [kworker/u256:1]
+root      11886      2  0 18:57 ?        00:00:00 [kworker/1:1]
+root      11898  11853  0 19:00 pts/3    00:00:00 su - root
+root      11899  11898  0 19:00 pts/3    00:00:00 -bash
+root      11928      2  0 19:01 ?        00:00:00 [kworker/0:1]
+root      11930      2  0 19:02 ?        00:00:00 [kworker/1:0]
+mobisec2  11951  11696  0 19:05 pts/4    00:00:00 ps -ef
