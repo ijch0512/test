@@ -21,8 +21,30 @@
 # 입력 줄 히스토리 (새것부터 오래된 것 순):
 
 # 레지스터:
-""0	LINE	0
+""0	CHAR	0
+	#include <stdio.h>
 	
+	int main(void)
+	{
+		int n[4] = { 0 }, i, j, temp = 0;
+	
+		scanf("%d %d %d %d", &n[0], &n[1], &n[2], &n[3]);
+		for(i = 0; i < 3; i++)
+		{
+			for(j =0; j < 3; j++)
+			{
+				if(n[j] > n[j + 1])
+				{
+					temp = n[j + 1];
+					n[j + 1] = n[j];
+					n[j] = temp;
+				}
+			}
+		}
+		printf("%d %d %d %d\n", n[0], n[1], n[2], n[3]);
+	
+		return 0;
+	}
 "1	LINE	0
 	ddddddddddddddddddd
 "2	LINE	0
@@ -33,31 +55,31 @@
 	ddddddddddddddddddddddddddddddddddddddddddddddd
 
 # 파일 마크:
-'0  13  3  ~/bubble.c
-'1  16  6  ~/bubble.c
-'2  1  0  ~/bubbl.c
-'3  3  0  ~/bubble.c
-'4  1  0  ~/tutering/bubble.c
-'5  23  0  ~/tutering/bubble
-'6  1  0  ~/test.sh
-'7  1  0  ~/test.out
-'8  1  0  ~/mobisec
-'9  20  0  ~/bubble.c
+'0  1  0  ~/bubble.c
+'1  1  0  ~/test.out
+'2  35  3  ~/bubble.c
+'3  38  6  ~/bubble.c
+'4  1  0  ~/bubbl.c
+'5  25  0  ~/bubble.c
+'6  1  0  ~/tutering/bubble.c
+'7  23  0  ~/tutering/bubble
+'8  1  0  ~/test.sh
+'9  1  0  ~/mobisec
 
 # 점프목록 (새것이 먼저):
--'  13  3  ~/bubble.c
--'  16  4  ~/bubble.c
--'  3  0  ~/bubble.c
+-'  1  0  ~/bubble.c
+-'  35  3  ~/bubble.c
+-'  1  0  ~/test.out
+-'  38  4  ~/bubble.c
+-'  25  0  ~/bubble.c
 -'  1  0  ~/bubbl.c
 -'  1  0  ~/tutering/bubble.c
 -'  23  0  ~/tutering/bubble
 -'  1  0  ~/test.sh
--'  1  0  ~/test.out
 -'  1  0  ~/mobisec
--'  20  1  ~/bubble.c
--'  23  0  ~/bubble.c
+-'  42  1  ~/bubble.c
+-'  45  0  ~/bubble.c
 -'  1  0  ~/b
--'  1  0  ~/bubble.c
 -'  1  0  ~/bubble
 -'  8  1  ~/sch/test.c
 -'  1  0  ~/sch/test
@@ -142,24 +164,27 @@
 -'  17  8  ~/git-namhyocheon/test.c
 -'  15  0  ~/test.c
 -'  1  0  ~/git-namhyocheon/test.c
--'  17  8  ~/git-namhyocheon/test.c
 
 # 파일내의 마크 히스토리 (새것부터 오래된 순):
 
 > ~/bubble.c
-	"	13	3
-	^	13	4
-	.	12	12
+	"	1	0
+	^	1	0
+	.	1	0
 	+	1	18
-	+	20	49
-	+	23	0
-	+	20	1
-	+	3	12
-	+	14	17
-	+	15	10
-	+	15	18
-	+	16	7
-	+	12	12
+	+	42	49
+	+	45	0
+	+	42	1
+	+	25	12
+	+	36	17
+	+	37	10
+	+	37	18
+	+	38	7
+	+	34	12
+	+	1	0
+
+> ~/test.out
+	"	1	0
 
 > ~/bubbl.c
 	"	1	0
@@ -180,9 +205,6 @@
 	+	23	0
 
 > ~/test.sh
-	"	1	0
-
-> ~/test.out
 	"	1	0
 
 > ~/mobisec
